@@ -1,9 +1,9 @@
 ---
 layout:     post
-title:      Announcing Version 2.0
-date:       2015-07-11
-summary:    Now, Pixyll is lighter weight and more customizable than before.
-categories: jekyll pixyll
+title:      Art of WSN Simulation
+date:       2017-12-8
+summary:    WSN simulation is an important aspect for IoT network protocol or application development. I ll talk about existing simulation techniques, pit-falls, and then introduce Whitefield.
+categories: jekyll WSN Wireless Sensor Networks IoT protocols
 ---
 
 In an effort to make Pixyll easier to customize and more aesthetically pleasing, we've released version `2.0`.

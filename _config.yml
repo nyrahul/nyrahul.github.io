@@ -1,10 +1,10 @@
 # Site settings
-title:       Pixyll
-email:       your_email@example.com
-author:      John Otander
-description: "A simple, beautiful theme for Jekyll that emphasizes content rather than aesthetic fluff."
+title:       RJed
+email:       nyrahul@gmail.com
+author:      Rahul Jadhav
+description: "My tech pieces where i jot down ideas, work-in-progress and development around."
 baseurl:     ""
-url:         "http://pixyll.com"
+url:         "http://rjed.org"
 date_format: "%b %-d, %Y"
 header_pages:
  - about.md
@@ -87,15 +87,8 @@ text:
     older: 'Older'
   share_buttons:
     text:         'Share this post!'
-    facebook:     'Share on Facebook'
     twitter:      'Share on Twitter'
-    googleplus:   'Share on Google+'
     linkedin:     'Share on LinkedIn'
-    digg:         'Share on Digg'
-    tumblr:       'Share on Tumblr'
-    reddit:       'Share on Reddit'
-    stumbleupon:  'Share on StumbleUpon'
-    hackernews:   'Share on Hacker News'
   post:
     updated:        'Updated'
     minute_read:    'minute read'
@@ -111,7 +104,7 @@ text:
       sending:  'sending..'
       sent:     'Message sent!'
       error:    'Error!'
-  thanks: 'Thanks for contacting us. We will reply as soon as possible.'
+  thanks: 'Thanks for contacting. I will reply as soon as possible.'
   og_locale: 'en_US'
 
 # Build settings
@@ -119,7 +112,7 @@ markdown:     kramdown
 redcarpet:
   extensions: ['smart', 'tables', 'with_toc_data']
 permalink:    pretty
-paginate:     4
+paginate:     20
 sass:
   style: compressed
 plugins:
