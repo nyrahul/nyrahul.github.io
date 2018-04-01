@@ -39,6 +39,7 @@ functions provided by sysv msgq. Quote from Posix msgq man page 'man
 mq_overview':
 > "This API is distinct from that provided by System V message queues (msgget(2),
 > msgsnd(2), msgrcv(2), etc.), but provides similar functionality."
+
 "but provides similar functionality" ... well it doesn't!
 
 ## I ended up using...
