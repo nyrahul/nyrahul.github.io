@@ -23,7 +23,7 @@ receiver process could call the interface
 [msgrcv](https://linux.die.net/man/2/msgrcv) with that particular mtype to
 receive only those marked messages, all on the same queue.
 
-![Alt text](../images/sysv_msgq.png "SysV Message Queue")
+![Alt text](/images/sysv_msgq.png "SysV Message Queue")
 
 ## Event based handling
 Sysv msqq does not offer a descriptor which can be used in conjunction with
