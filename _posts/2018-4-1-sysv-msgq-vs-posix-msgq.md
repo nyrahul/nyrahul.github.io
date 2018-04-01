@@ -27,16 +27,19 @@ receive only those marked messages, all on the same queue.
 
 ## Event based handling
 Sysv msqq does not offer a descriptor which can be used in conjunction with
-select/poll/epoll. This is rather a very big limiting factor for sysv msgqs.
-Essentially if you want to handle sysv msgqs then you have to poll in msgrcv()
-in non-blocking mode or block on msgrcv in a separate thread.
+select/poll/epoll. This is rather a very big limiting factor for sysv msgqs,
+since now there is no way of getting the events about message reception
+asynchronosly. Essentially if you want to handle sysv msgqs then you have to
+poll in msgrcv() in non-blocking mode or block on msgrcv in a separate thread.
 
+## Thought for the day...
 Posix msgq is touted to be very similar to sysv msgq and since it was designed
 much later, it was assumed that posix msgqs provides all the important
 functions provided by sysv msgq. Quote from Posix msgq man page 'man
 mq_overview':
 > "This API is distinct from that provided by System V message queues (msgget(2),
 > msgsnd(2), msgrcv(2), etc.), but provides similar functionality."
+"but provides similar functionality" ... well it doesn't!
 
 ## I ended up using...
 In my case, I ended up using SysV message queues by blocking msgrcv in a
