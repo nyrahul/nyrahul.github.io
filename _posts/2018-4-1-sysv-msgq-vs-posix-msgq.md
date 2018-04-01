@@ -25,7 +25,7 @@ receive only those marked messages, all on the same queue.
 
 ![Alt text](../images/sysv_msgq.png "SysV Message Queue")
 
-# Event based handling
+## Event based handling
 Sysv msqq does not offer a descriptor which can be used in conjunction with
 select/poll/epoll. This is rather a very big limiting factor for sysv msgqs.
 Essentially if you want to handle sysv msgqs then you have to poll in msgrcv()
