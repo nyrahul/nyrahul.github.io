@@ -35,10 +35,10 @@ Posix msgq is touted to be very similar to sysv msgq and since it was designed
 much later, it was assumed that posix msgqs provides all the important
 functions provided by sysv msgq. Quote from Posix msgq man page 'man
 mq_overview':
+> "This API is distinct from that provided by System V message queues (msgget(2),
+> msgsnd(2), msgrcv(2), etc.), but provides similar functionality."
 
-"This API is distinct from that provided by System V message queues (msgget(2),
-msgsnd(2), msgrcv(2), etc.), but provides similar functionality."
-
+## I ended up using...
 In my case, I ended up using SysV message queues by blocking msgrcv in a
 separate thread since the use of mtype was absolutely central to my design
 requirement. I considered using sockets for the purpose, but it required me to
@@ -47,6 +47,7 @@ ascertain if the range of ports would be available on the target machine. I
 also considered using Unix domain sockets, but again the handling of socket
 files (and ensuring a writeable folder/path) was somthing i wanted to avoid.
 
-Long story short, Posix message queues are not similar to SysV message queues
-and Posix message queues may not have better functionality than SysV message
-queues. There are still use-cases where SysV message queues makes sense.
+## Long story short...
+Posix message queues are not similar to SysV message queues and Posix message
+queues may not have better functionality than SysV message queues. There are
+still use-cases where SysV message queues makes sense.
