@@ -21,7 +21,9 @@ needed to select an IPC mechanism which could,
 elegant manner. A message could be posted using a specific 'mtype' such that a
 receiver process could call the interface
 [msgrcv](https://linux.die.net/man/2/msgrcv) with that particular mtype to
-receive only those marked messages, all on the same queue.
+receive only those marked messages, all on the same shared queue.
+
+Surprisingly, this feature is missing in Posix message queues.
 
 ![Alt text](/images/sysv_msgq.png "SysV Message Queue")
 
