@@ -57,3 +57,10 @@ files (and ensuring a writeable folder/path) was somthing i wanted to avoid.
 Posix message queues are not similar to SysV message queues and Posix message
 queues may not have better functionality than SysV message queues. There are
 still use-cases where SysV message queues makes sense.
+
+## Update (7-Apr-18)... Switching to Abstract unix domain datagram sockets
+Turns out using a separate thread with a blocking msgrcv() of sysv msgq is not easy. The synchronization between main processing thread and this msgrcv() thread is non-trivial and will cause performance issues. Also i noticed that unix domain sockets have an 'abstract' mode wherein i do not have to worry about maintaining a writeable file system path. Thus I ended up updating Whitefield's commline interfaces to use 'Abstract Unix domain datagram sockets'. So to summarize:
+* SysV msgq 'mtype' allowed every process to listen for its own 'mtype' messages. With unix domain sockets this was achieved by binding to a specific path derived using 'mtype'.
+* SysV msgqs could not be used with select/poll/epoll. Unix domain sockets can be used with such event based primitives.
+* Using 'abstract' unix domain sockets, the process does not need to worry about ensuring writeable filesystem path.
+* Using datagram mode of abstract unix domain sockets allowed any to any communication between processes without managing multiple socket descriptors.
