@@ -86,9 +86,9 @@ Assuming that the sequence window is 16, and the sequence counter size is 1byte.
 
 ```
 #define SEQ_WIN                 16
-#define LPOP_INIT               (-(SEQ_WIN))
-#define LPOP_INCR(X)            X=(X)<0?(++X):(++X)&0x7f;
-#define LPOP_IS_GREATER(A, B)   (((A)>(B)) || ((B-A)>=SEQ_WIN))
+#define LPOP_INIT               -(SEQ_WIN)
+#define LPOP_INCR(X)            X=(X)<0?++(X):++(X)&0x7f;
+#define LPOP_IS_GREATER(A, B)   ((A)>(B) || ((B)-(A))>=SEQ_WIN)
 ```
-
+[Lollipop Counters](https://github.com/nyrahul/src/tree/master/lollipop)
 
