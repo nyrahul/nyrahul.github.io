@@ -31,7 +31,9 @@ sending after restart are fresh ones.
 Consider the following topology where Node A starts disemminating its routing
 state to the network. 
 
-![Alt text](/images/topology1.png "Sample Topology")
+<p align="center">
+<img src="/images/topology1.png" alt="Sample Topology"/>
+</p>
 
 It uses seq=1 and in the future if it has a new state it can use seq=2
 such that the peers will know that the new state is the latest state. 
@@ -57,3 +59,5 @@ are limited in numbers before the flash sectors go bad.
 
 Problem with approach 2 is that the time across all peers may not be
 synchronized.
+
+
