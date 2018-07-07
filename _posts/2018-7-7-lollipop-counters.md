@@ -70,4 +70,25 @@ positive set alone.
 <img src="/images/lollipop.png" alt="Lollipop Counter operation"/>
 </p>
 
-Lollipop Counters allows the nodes to restart safely while allowing the 
+Lollipop counter has two zones, namely the linear part and the circular part.
+The nodes starts in the linear part and moves into circular zone. Once it moves
+into the circular part then it stays in the circular part until the next
+reboot.
+
+Lollipop counters allows:
+1. Peer nodes to detect whether the sender has rebooted
+2. Limited use of persistent storage (only in the linear part)
+3. the counter sizes to be smaller (because of its circular nature)
+
+### Lollipop Counter implementation
+
+Assuming that the sequence window is 16, and the sequence counter size is 1byte.
+
+```
+#define SEQ_WIN                 16
+#define LPOP_INIT               (-(SEQ_WIN))
+#define LPOP_INCR(X)            X=(X)<0?(++X):(++X)&0x7f;
+#define LPOP_IS_GREATER(A, B)   (((A)>(B)) || ((B-A)>=SEQ_WIN))
+```
+
+
