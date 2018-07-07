@@ -28,3 +28,11 @@ since the messages flow any to any. If any node restarts/reboots, it has to
 ensure that the nodes around believe that the routing updates that it is
 sending after restart are fresh ones.
 
+Consider the following topology where Node A starts disemminating its routing
+state to the network. 
+
+![Alt text](/images/topology1.png "Sample Topology")
+
+It uses a seq=1 and in the future if it has a new state it can use seq=2
+such that the peers will know that the new state is the latest state.
+
