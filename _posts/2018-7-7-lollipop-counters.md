@@ -38,9 +38,9 @@ state to the network.
 It uses seq=1 and in the future if it has a new state it can use seq=2
 such that the peers will know that the new state is the latest state. 
 
-Now the bigger question here is if the Node A has to restart (or abruptly
-reboots) then what is the sequence number that it can use such that any new
-state that it disemminates is taken as a fresh information from the peers. 
+> Now the bigger question here is if the Node A has to restart (or abruptly
+> reboots) then what is the sequence number that it can use such that any new
+> state that it disemminates is taken as a fresh information from the peers. 
 
 Lets say the Node A reinitializes the sequence number to 1, then other nodes
 would consider any new information from node A as stale information.
@@ -52,7 +52,7 @@ There are two easy solutions that comes to mind:
     use timestamp itself as the sequence number.
 
 Problem with approach 1 is the dependence on persistent storage. While it is an
-easy fix, persistent storage might not be available or it use might be costly.
+easy fix, persistent storage might not be available or its use might be costly.
 For e.g. consider an IoT use-case where the only persistent storage available
 is flash and writing to flash is considered costly since the writes to flash
 are limited in numbers before the flash sectors go bad.
@@ -60,4 +60,14 @@ are limited in numbers before the flash sectors go bad.
 Problem with approach 2 is that the time across all peers may not be
 synchronized.
 
+## Lollipop Counters
 
+Using lollipop counters, the sequence numbers starts with a negative value and
+monotonically increments until it reaches zero and then cycles through the
+positive set alone.
+
+<p align="center">
+<img src="/images/lollipop.png" alt="Lollipop Counter operation"/>
+</p>
+
+Lollipop Counters allows the nodes to restart safely while allowing the 
