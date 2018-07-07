@@ -33,6 +33,23 @@ state to the network.
 
 ![Alt text](/images/topology1.png "Sample Topology")
 
-It uses a seq=1 and in the future if it has a new state it can use seq=2
-such that the peers will know that the new state is the latest state.
+It uses seq=1 and in the future if it has a new state it can use seq=2
+such that the peers will know that the new state is the latest state. 
 
+Now the bigger question here is if the Node A has to restart (or abruptly
+reboots) then what is the sequence number that it can use such that any new
+state that it disemminates is taken as a fresh information from the peers. 
+
+Lets say the Node A reinitializes the sequence number to 1, then other nodes
+would consider any new information from node A as stale information.
+
+There are two easy solutions that comes to mind:
+1.  Node A could backup the sequence number in persistent storage and on reboot,
+    it can restore and increment the sequence number.
+2.  Node A could timestamp the packets along with the sequence number.
+
+Problem with approach 1 is the dependence on persistent storage. While it is an
+easy fix, persistent storage might not be available or it use might be costly.
+For e.g. consider an IoT use-case where the only persistent storage available
+is flash and writing to flash is considered costly since the writes to flash
+are limited in numbers before the flash sectors go bad.
