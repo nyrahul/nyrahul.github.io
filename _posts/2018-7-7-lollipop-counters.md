@@ -46,10 +46,14 @@ would consider any new information from node A as stale information.
 There are two easy solutions that comes to mind:
 1.  Node A could backup the sequence number in persistent storage and on reboot,
     it can restore and increment the sequence number.
-2.  Node A could timestamp the packets along with the sequence number.
+2.  Node A could timestamp the packets along with the sequence number or rather
+    use timestamp itself as the sequence number.
 
 Problem with approach 1 is the dependence on persistent storage. While it is an
 easy fix, persistent storage might not be available or it use might be costly.
 For e.g. consider an IoT use-case where the only persistent storage available
 is flash and writing to flash is considered costly since the writes to flash
 are limited in numbers before the flash sectors go bad.
+
+Problem with approach 2 is that the time across all peers may not be
+synchronized.
