@@ -92,3 +92,9 @@ Assuming that the sequence window is 16, and the sequence counter size is 1byte.
 ```
 [Lollipop Counters](https://github.com/nyrahul/src/tree/master/lollipop)
 
+<script src="https://utteranc.es/client.js"
+repo="https://github.com/nyrahul/nyrahul.github.io.git"
+issue-term="pathname"
+crossorigin="anonymous"
+async>
+</script>
