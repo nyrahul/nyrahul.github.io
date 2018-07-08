@@ -90,11 +90,5 @@ Assuming that the sequence window is 16, and the sequence counter size is 1byte.
 #define LPOP_INCR(X)            X=(X)<0?++(X):++(X)&0x7f;
 #define LPOP_IS_GREATER(A, B)   ((A)>(B) || ((B)-(A))>=SEQ_WIN)
 ```
-[Lollipop Counters](https://github.com/nyrahul/src/tree/master/lollipop)
+[Github: Lollipop Counters](https://github.com/nyrahul/src/tree/master/lollipop)
 
-<script src="https://utteranc.es/client.js"
-repo="https://github.com/nyrahul/nyrahul.github.io.git"
-issue-term="pathname"
-crossorigin="anonymous"
-async>
-</script>
