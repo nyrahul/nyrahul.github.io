@@ -90,6 +90,27 @@ If the node reboots while in circular part, then it restarts in the begining of
 the linear part thus the peers knows that the node has restarted and that the
 new packets will be the latest pkts.
 
+### Sequence Window and what value to use?
+Sequence window defines:
+1. how long the counter remains in the linear part?
+2. in the circular region, if the absolute difference between the received seq
+number and the held seq number is greater than seq window, then the received
+seq number is considered to be new/fresh.
+
+The sequence window should be large enough to accomodate the duration for which
+the packet might remain in transit in the network while new packets with
+updated sequence numbers are getting generated. In the above topology, Node A
+generates a packet with seq 1 and it is possible that while this packet is
+still in transit in the network Node A might generate subsequent update with
+seq 2. Now it is possible that Node F may receive the packet with seq 2 before
+seq 1. Node F should conclusively derive that seq 2 is the latest packet. 
+
+The sequence window could be kept large for larger multi-hop networks. If the
+propagation delay is high, then again it warrants to have a bigger sequence
+window. Note that the only implication of having a larger sequence window is
+that the linear part is correspondingly lengthier and thus requires more
+persistent storage writes.
+
 ### Lollipop Counter implementation
 
 Assuming that the sequence window is 16, and the sequence counter size is 1byte.
@@ -101,4 +122,6 @@ Assuming that the sequence window is 16, and the sequence counter size is 1byte.
 #define LPOP_IS_GREATER(A, B)   ((A)>(B) || ((B)-(A))>=SEQ_WIN)
 ```
 [Github: Lollipop Counters](https://github.com/nyrahul/src/tree/master/lollipop)
+
+[RPL Protocol and Lollipop counters](https://tools.ietf.org/html/draft-rahul-roll-rpl-observations-01#section-7.2)
 
