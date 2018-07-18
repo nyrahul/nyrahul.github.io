@@ -82,8 +82,10 @@ Lollipop counters allows:
 
 ### Implications on the use of persistent storage
 Use of lollipop counters results in reduced use of flash/persistent storage.
+
 > The sequence number needs to be backed up in persistent storage only for the
 > linear part. 
+
 If the node reboots while in circular part, then it restarts in the begining of
 the linear part thus the peers knows that the node has restarted and that the
 new packets will be the latest pkts.
