@@ -7,3 +7,6 @@
 - Loss based schemes
 - Delay based schemes
 - Explicit feedback based schemes
+- AQM and congestion control
+  - BBR's dependence on pacing
+  
