@@ -2,6 +2,8 @@
 - Fairness to other flows
 - Fairness to self flows
 - Fairness to App limited flows
-- Startup phase
+- Slow start vs congestion avoidance
 - Deep buffers vs shallow buffers
-
+- Loss based schemes
+- Delay based schemes
+- Explicit feedback based schemes
