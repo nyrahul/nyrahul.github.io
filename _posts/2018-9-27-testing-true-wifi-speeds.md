@@ -9,15 +9,11 @@ categories: wifi routers, gigabit routers
 ---
 
 Test tool: iperf (2.0.5)
-
 Laptop1: Ubuntu 18.04 (Huawei Matebook X Pro, i7 8550U)
-
 Laptop2: Ubuntun 16.04 (HP EliteBook 840 G3, i7)
 
 ## Scenario1:
-
 Wifi Router: [Dlink 816](http://www.dlink.co.in/products/?pid=677)
-
 Time: 7pm
 
 <p align="center">
@@ -34,9 +30,7 @@ Time: 7pm
 | 2.4G | Eth | 37.1 | 35.3 | 34.5 | 35.63 |
 
 ## Scenario2:
-
 Wifi Router: [NetGear R6800 AC1900 Dual Band Gigabit Wireless Router]()
-
 Time: 7:20pm
 
 <p align="center">
