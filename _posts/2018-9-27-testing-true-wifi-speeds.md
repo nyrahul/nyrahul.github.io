@@ -48,17 +48,26 @@ Time: 7:20pm
 
 ## Performance comparison
 
-### 2.4GHz to 2.4GHz
+#### 2.4GHz to 2.4GHz
+
 | Router | Throughput |
-| ------ | ---------- |
+|--------|------------|
 | Dlink  | 18.03 |
 | Netgear | 51.53 |
 
-### 2.4GHz to 5GHz
+#### 2.4GHz to 5GHz
+
 | Router | Throughput |
-| ------ | ---------- |
+|--------|------------|
 | Dlink  | 40.46 |
 | Netgear | 103 |
+
+#### 5GHz to 2.4GHz
+
+| Router | Throughput |
+|--------|------------|
+| Dlink  | 53.26 |
+| Netgear | 134.33 |
 
 
 ## Notes:
