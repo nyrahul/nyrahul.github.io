@@ -46,6 +46,16 @@ Time: 7:20pm
 | 5G | Eth | 444 | 449 | 452 | 448.33 |
 | 2.4G | Eth | 99.5 | 102 | 100 | 100.50 |
 
+## Performance comparison
+
+| Router | Sender | Rcvr | Throughput |
+|--------|--------|------|------------|
+| Dlink   | 2.4G | 2.4G | 18.03 |
+| Netgear | 2.4G | 2.4G | 51.53 |
+|--------|--------|------|------------|
+| Dlink   | 2.4G | 5G | 40.46 |
+| Netgear | 2.4G | 5G | 103 |
+
 ## Notes:
 * Max CPU usage of iperf on sender & receiver (laptop2) < 20%
 * The performance of 2.4GHz differed widely between Netgear and Dlink. Netgear hugely out-performed Dlink.
