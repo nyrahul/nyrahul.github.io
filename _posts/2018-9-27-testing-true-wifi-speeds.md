@@ -48,13 +48,46 @@ Time: 7:20pm
 
 ## Performance comparison
 
-| Router | Sender | Rcvr | Throughput |
-|--------|--------|------|------------|
-| Dlink   | 2.4G | 2.4G | 18.03 |
-| Netgear | 2.4G | 2.4G | 51.53 |
-|--------|--------|------|------------|
-| Dlink   | 2.4G | 5G | 40.46 |
-| Netgear | 2.4G | 5G | 103 |
+<table>
+    <thead>
+        <tr>
+            <th>Scenario</th>
+            <th>Router</th>
+            <th>Throughput</th>
+        </tr>
+    </thead>
+    <body>
+        <tr>
+            <td rowspan=2>2.4GHz -> 2.4GHz</td>
+            <td>Dlink</td>
+            <td>18.03</td>
+        </tr>
+        <tr>
+            <td>Netgear</td>
+            <td>51.53</td>
+        </tr>
+
+        <tr>
+            <td rowspan=2>2.4GHz -> 5GHz</td>
+            <td>Dlink</td>
+            <td>40.46</td>
+        </tr>
+        <tr>
+            <td>Netgear</td>
+            <td>103</td>
+        </tr>
+
+        <tr>
+            <td rowspan=2>5GHz -> 2.4GHz</td>
+            <td>Dlink</td>
+            <td>53.26</td>
+        </tr>
+        <tr>
+            <td>Netgear</td>
+            <td>134.33</td>
+        </tr>
+    </body>
+</table>
 
 ## Notes:
 * Max CPU usage of iperf on sender & receiver (laptop2) < 20%
