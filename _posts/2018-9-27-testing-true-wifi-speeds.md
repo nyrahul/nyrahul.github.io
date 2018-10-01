@@ -56,7 +56,7 @@ Time: 7:20pm
             <th>Throughput</th>
         </tr>
     </thead>
-    <body>
+    <tbody>
         <tr>
             <td rowspan=2>2.4GHz -> 2.4GHz</td>
             <td>Dlink</td>
@@ -86,7 +86,7 @@ Time: 7:20pm
             <td>Netgear</td>
             <td>134.33</td>
         </tr>
-    </body>
+    </tbody>
 </table>
 
 ## Notes:
