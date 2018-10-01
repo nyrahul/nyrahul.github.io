@@ -12,7 +12,7 @@ Test tool: iperf (2.0.5)<br/>
 Laptop1: Ubuntu 18.04 (Huawei Matebook X Pro, i7 8550U)<br/>
 Laptop2: Ubuntun 16.04 (HP EliteBook 840 G3, i7)
 
-## Scenario1:
+## Router1(Dlink-816):
 Wifi Router: [Dlink 816](http://www.dlink.co.in/products/?pid=677)<br/>
 Time: 7pm
 
@@ -29,7 +29,7 @@ Time: 7pm
 | 5G | Eth | 89.1 | 92.5 | 91.8 | 91.13 |
 | 2.4G | Eth | 37.1 | 35.3 | 34.5 | 35.63 |
 
-## Scenario2:
+## Route2(Netgear-R6800):
 Wifi Router: [NetGear R6800 AC1900 Dual Band Gigabit Wireless Router](https://www.netgear.com/support/product/R6800.aspx)<br/>
 Time: 7:20pm
 
@@ -45,30 +45,6 @@ Time: 7:20pm
 | 5G | 5G | 242 | 243 | 240 | 241.66 |
 | 5G | Eth | 444 | 449 | 452 | 448.33 |
 | 2.4G | Eth | 99.5 | 102 | 100 | 100.50 |
-
-## Performance comparison
-
-#### 2.4GHz to 2.4GHz
-
-| Router | Throughput |
-|--------|------------|
-| Dlink  | 18.03 |
-| Netgear | 51.53 |
-
-#### 2.4GHz to 5GHz
-
-| Router | Throughput |
-|--------|------------|
-| Dlink  | 40.46 |
-| Netgear | 103 |
-
-#### 5GHz to 2.4GHz
-
-| Router | Throughput |
-|--------|------------|
-| Dlink  | 53.26 |
-| Netgear | 134.33 |
-
 
 ## Notes:
 * Max CPU usage of iperf on sender & receiver (laptop2) < 20%
