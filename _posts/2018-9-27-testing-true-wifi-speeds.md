@@ -5,7 +5,7 @@ date:       2018-7-7
 summary:    Wifi routers claim Gigabits speed, but is it really possible to get
             that kind of speeds. I tried checking in local network what is the
             best speed that can be achieved in regular home conditions.
-categories: wifi routers, gigabit routers
+categories: general
 ---
 
 Test tool: iperf (2.0.5)<br/>
@@ -29,7 +29,7 @@ Time: 7pm
 | 5G | Eth | 89.1 | 92.5 | 91.8 | 91.13 |
 | 2.4G | Eth | 37.1 | 35.3 | 34.5 | 35.63 |
 
-## Route2(Netgear-R6800):
+## Router2(Netgear-R6800):
 Wifi Router: [NetGear R6800 AC1900 Dual Band Gigabit Wireless Router](https://www.netgear.com/support/product/R6800.aspx)<br/>
 Time: 7:20pm
 
