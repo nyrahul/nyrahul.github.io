@@ -8,6 +8,14 @@ summary:    Wifi routers claim Gigabits speed, but is it really possible to get
 categories: general
 ---
 
+Aim for the tests is to check maximum wireless speeds that can be achieved with
+2.4GHz and 5GHz mode in typical home scenarios. I had two routers to do these
+tests, viz DLink-816 and NetGear R6800.
+
+The result were quite interesting considering that the same configuration of
+2.4GHz leads to drastically different speeds on different wifi routers. Thus
+selecting a good wifi router is key.
+
 Test tool: iperf (2.0.5)<br/>
 Laptop1: Ubuntu 18.04 (Huawei Matebook X Pro, i7 8550U)<br/>
 Laptop2: Ubuntun 16.04 (HP EliteBook 840 G3, i7)
