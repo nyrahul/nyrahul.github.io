@@ -2,9 +2,7 @@
 layout:     post
 title:      Art of WSN Simulation for mesh networks
 date:       2017-12-8
-summary:    WSN simulation is an important aspect for IoT network protocol or
-application development. I ll talk about existing simulation techniques,
-pit-falls, and then introduce Whitefield.
+summary:    WSN simulation is an important aspect for IoT network protocol or application development. I ll talk about existing simulation techniques, pit-falls, and then introduce Whitefield.
 categories: WSN
 ---
 
