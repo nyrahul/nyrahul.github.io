@@ -36,22 +36,29 @@ sure that we complete the work in time and with the right expectations.
 This article will cover various aspects of simulation and finally why I had to
 come up with a framework of my own.
 
-* Choosing the right platform
-There are various platforms available such as NS3, Omnet++, Cooja, and Opnet
+## Choosing the right platform
+There are various simulation platforms available such as NS3, Omnet++, Cooja, and Opnet
 which can be used for the purpose.
 Selection criteria can be:
 - Realistic wireless simulation
 - Desired MAC layer support
+- Scale
 - Support for required stacks (in my case, i needed IPv6 based stack)
 - How easy is it to plugin a real-world network stack?
 
 In my case, I was experimenting with Contiki and RIOT network stacks and had to
-evaluate the performance differences and stack maturity.
+evaluate the performance differences and stack maturity. For mesh network
+establishment, RPL protocol was used and I had verify whether the protocol can
+actually scale to my requirements.
 
+### Realistic Simulation
 Realistic wireless simulation was important because the performance factors
-greatly depended on realistic RF. Modules such as path-loss modeling,
-asymmetric links, probablistic losses, interference had to be simulated and
-played a key role in deriving the right performance factors (such as throughput
-and latencies).
+greatly depended on realistic RF. Modules such as
+- path-loss modeling,
+- asymmetric links,
+- probablistic losses,
+- interference
+had to be simulated and played a key role in deriving the right performance
+factors (such as throughput and latencies).
 
 
