@@ -5,7 +5,7 @@ date:       2017-12-8
 summary:    WSN simulation is an important aspect for IoT network protocol or
 application development. I ll talk about existing simulation techniques,
 pit-falls, and then introduce Whitefield.
-categories: WSN, Wireless Sensor Networks, IoT, protocols
+categories: WSN
 ---
 
 Wireless sensor network simulation plays an important role in development and
