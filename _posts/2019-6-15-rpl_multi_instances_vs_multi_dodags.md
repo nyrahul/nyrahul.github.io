@@ -2,18 +2,21 @@
 layout:     post
 title:      RPL Multi Instances vs Multi-DODAGs
 date:       2019-6-15
-summary:    It is easy to get confused between the two. The post goes into the
-            details of differences with use-cases.
+summary:    RPL routing protocol has a notion of multiple instances and
+            multiple DAGs. It is easy to get confused between the two. The post goes into
+            the details of differences with use-cases.
 categories: rpl
 ---
 
-[RPL][1], introduces the concept of using [multiple instances][2] and multiple
-dodags within the network.  An [RPL][1] Instance contains one or more DODAG
+[RPL][1] is a distance vector routing protocol for constrained mesh networks
+and it introduces the concept of using [multiple instances][2] and multiple
+dodags within the network. An [RPL][1] Instance contains one or more DODAG
 roots. There could be more than one RPL Instances operating in the network.
-Figure 1 in [RFC6550][1] shows a sample network with multiple instances. However the
-spec does not explain the use-cases of these concepts.
+Figure 1 in [RFC6550][1] shows a sample network with multiple instances.
+However the spec does not explain the use-cases of these concepts. This is an
+attempt to differentiate and explain the use-cases.
 
-## Use-case of using multiple RPL Instances
+## Multiple RPL Instances
 Multiple RPL Instances could be used to satisfy different application
 requirements. Consider a temperature sensor network which sends periodic
 temperature reading every 10 minutes. But if the temperature changes
@@ -35,7 +38,7 @@ a node may serve only as a leaf node in a given instance while serving as a
 router node in another instance. In the above example, green nodes are leaf
 nodes in Instance 0 and can operate as router in Instance 1.
 
-## Use-case for multiple DAGs within an Instance
+## Multiple DAGs within an Instance
 Now lets assume you decide that you don't want a single point of failure in the
 form of BR. Thus you need to put another BR in the network. You want this
 additional BR to load balance the network when both BRs are active and take
