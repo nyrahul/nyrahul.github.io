@@ -10,15 +10,8 @@ categories: rpl
 [RPL][1], introduces the concept of using [multiple instances][2] and multiple
 dodags within the network.  An [RPL][1] Instance contains one or more DODAG
 roots. There could be more than one RPL Instances operating in the network.
-Figure 1 in RFC6550 shows a sample network with multiple instances. However the
+Figure 1 in [RFC6550][1] shows a sample network with multiple instances. However the
 spec does not explain the use-cases of these concepts.
-
-Note that:
-1. Multiple RPL Instances could have subset of nodes in common. This is not
-   true with multiple DODAGS within an instance i.e. there can't be common
-   nodes in multiple DAGs in the same instance.
-2. Objective function(OF), prefixes are associated to an RPL Instance. Multiple
-   DAGs in the same instance will share this configuration.
 
 ## Use-case of using multiple RPL Instances
 Multiple RPL Instances could be used to satisfy different application
@@ -26,7 +19,7 @@ requirements. Consider a temperature sensor network which sends periodic
 temperature reading every 10 minutes. But if the temperature changes
 above/below a certain threshold it needs to send the reading immediately and
 with less latency as possible. Two RPL Instances could be made use of in this case,
-1. satisfies regular periodic traffic and paths optimizes for network lifetime
+1. satisfies regular periodic traffic and optimizes paths for network lifetime
    (i.e. skips battery powered nodes)
 2. satisfies latency-critical traffic when thresholds are crossed and paths
    optimizes for latency and network lifetime.
@@ -57,6 +50,27 @@ metrics and satisfies the given constraints.
 <div style="text-align:center" markdown="1">
 ![Alt text](/images/rpl_multi_dags.png "Multiple DAGs per for Instance=1")
 </div>
+
+In this example, the introduction of another BR resulted in load-balancing of
+the nodes across the two BRs for RPL Instance=1. This was achieved by using two
+DAGs, one initiated by each BR. It is not necessary for all BRs to support all
+instances i.e. we can only have two BRs support Instance=1 while Instance=0 is
+managed by only one BR.
+
+However note that certain parameters such as RPLInstanceID, prefixes, objective
+function information needs to be synced between the two BRs constituting two
+DAGs in the same instance. This synchronization is beyond the scope of RPL and
+it is assumed that this synchronization is handled on some existing back
+channel between the two BRs.
+
+## To sum up
+
+Note that:
+1. Multiple RPL Instances could have subset of nodes in common. This is not
+   true with multiple DODAGS within an instance i.e. there can't be common
+   nodes in multiple DAGs in the same instance.
+2. Objective function(OF), prefixes are associated to an RPL Instance. Multiple
+   DAGs in the same instance will share this configuration.
 
 [1]: https://tools.ietf.org/html/rfc6550
 [2]: https://tools.ietf.org/html/rfc6550#section-3.1.3
