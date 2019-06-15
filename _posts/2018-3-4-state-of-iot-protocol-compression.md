@@ -7,12 +7,12 @@ categories: jekyll protocols
 ---
 
 * Why IoT protocol compression?
-* Data compression vs Protocol compression
 * Impact of protocol compression
     * Single hop, Multi hop
 * RoHC
 * 6LoWPAN
 * Generic Header Compression
 * SCHC
+* 6LoRH
 * Number game
 
