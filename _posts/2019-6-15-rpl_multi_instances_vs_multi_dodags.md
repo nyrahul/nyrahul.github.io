@@ -54,7 +54,9 @@ the same. The intermediate nodes (leaf/routers) need to decide to join to
 either of the DAGs in the network. They will join the DAG which has the better
 metrics and satisfies the given constraints.
 
+<div style="text-align:center" markdown="1">
 ![Alt text](/images/rpl_multi_dags.png "Multiple DAGs per for Instance=1")
+</div>
 
 [1]: https://tools.ietf.org/html/rfc6550
 [2]: https://tools.ietf.org/html/rfc6550#section-3.1.3
