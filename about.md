@@ -19,8 +19,11 @@ contributed to IETF working groups and several open sources in the domain.
 ## My Open Source Work
 
 * [Whitefield-Framework][1]: Last-Mile Realistic Wireless Simulation Framework
-* RPL Extensions for Scapy[PR](https://github.com/secdev/scapy/pull/2663)
-* UDP Generic Segmentation Offload (GSO) for lsquic[PR](https://github.com/litespeedtech/lsquic/pull/135)
+* RPL Extensions for Scapy [PR](https://github.com/secdev/scapy/pull/2663)
+* Whitefield Platform support in [Contiki-ng](https://github.com/whitefield-framework/contiki-ng)
+* Whitefield Platform support in [RIOT-OS](https://github.com/whitefield-framework/RIOT)
+* Whitefield Platform support in [Contiki](https://github.com/whitefield-framework/contiki)
+* UDP Generic Segmentation Offload (GSO) for lsquic [PR](https://github.com/litespeedtech/lsquic/pull/135)
 * [Android Support for lsquic](https://github.com/litespeedtech/lsquic/pull/132)
 * Others
     * [cmake fixes for lsquic](https://github.com/litespeedtech/lsquic/pull/134)
