@@ -12,7 +12,7 @@ contributed to IETF working groups and several open sources in the domain.
 
 Professional experience working in:
 * Transport Optimization: QUIC/TCP Transport, Congestion and Flow Control optimizations
-* IoT Networks: LoWPANs, BLE, PLC, IP Compression, Founder of Whitefield-Framework, Deployed Smart Grid Solutions, High Value IPRs/Stds/Publications in last-mile constrained Mesh networks.
+* IoT Networks: LoWPANs, BLE, PLC, IP Compression, Founder of Whitefield-Framework, Deployed Smart Grid Solutions, High Value IPRs/Stds/Publications in last-mile constrained Mesh networks. NS3/Omnet++/Castalia/Cooja simulation expertise.
 * Security: Transport (TLS) and Network security. Cloud security, SPIFFE Framework
 * Machine Learning: Search Optimized Adaboost for object detection. Algorithms/Publications in Computer Vision
 * Video Streaming: Worked on DASH, HLS optimization with coupled-transport. Implemented H264 based transrating solutions. Have high value IPRs and did corresponding implementations for live streaming.
