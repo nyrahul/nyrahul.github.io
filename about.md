@@ -10,6 +10,13 @@ Transport optimization domain. I have worked and contributed to various network
 stacks including Linux Kernel, LWIP, Micro IP. Have several high-value IPRs,
 contributed to IETF working groups and several open sources in the domain.
 
+Professional experience working in:
+* Transport Optimization: QUIC/TCP Transport, Congestion and Flow Control optimizations
+* IoT Networks: LoWPANs, BLE, PLC, IP Compression, Founder of Whitefield-Framework, Deployed Smart Grid Solutions, High Value IPRs/Stds/Publications in last-mile constrained Mesh networks.
+* Security: Transport (TLS) and Network security. Cloud security, SPIFFE Framework
+* Machine Learning: Search Optimized Adaboost for object detection. Algorithms/Publications in Computer Vision
+* Video Streaming: Worked on DASH, HLS optimization with coupled-transport. Implemented H264 based transrating solutions. Have high value IPRs and did corresponding implementations for live streaming.
+
 [LinkedIn](https://www.linkedin.com/in/rahul-jadhav-a0485310/)
 
 [Github nyrahul](https://github.com/nyrahul)
@@ -18,7 +25,7 @@ contributed to IETF working groups and several open sources in the domain.
 
 ## My Open Source Work
 
-* [Whitefield-Framework][1]: Last-Mile Realistic Wireless Simulation Framework
+* [Whitefield-Framework][1] (Founder/Lead Author): Last-Mile Realistic Wireless Simulation Framework
 * RPL Extensions for Scapy [PR](https://github.com/secdev/scapy/pull/2663)
 * Whitefield Platform support in [Contiki-ng](https://github.com/whitefield-framework/contiki-ng)
 * Whitefield Platform support in [RIOT-OS](https://github.com/whitefield-framework/RIOT)
@@ -27,6 +34,7 @@ contributed to IETF working groups and several open sources in the domain.
 * [Android Support for lsquic](https://github.com/litespeedtech/lsquic/pull/132)
 * Others
     * [cmake fixes for lsquic](https://github.com/litespeedtech/lsquic/pull/134)
+    * [NS3-PLC fixes](https://github.com/ns3-plc-module/plc/pull/16)
 
 ## My IETF Standards Work
 
