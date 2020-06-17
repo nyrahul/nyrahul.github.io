@@ -10,11 +10,31 @@ categories: rpl
 
 [RPL][1] is a distance vector routing protocol for constrained mesh networks
 and it introduces the concept of using [multiple instances][2] and multiple
-dodags within the network. An [RPL][1] Instance contains one or more DODAG
-roots. There could be more than one RPL Instances operating in the network.
-Figure 1 in [RFC6550][1] shows a sample network with multiple instances.
-However the spec does not explain the use-cases of these concepts. This is an
-attempt to differentiate and explain the use-cases.
+DODAGs (Destination Oriented Directed Acyclic Graph) within the network. An
+[RPL][1] Instance contains one or more DODAG roots. There could be more than
+one RPL Instances operating in the network.  Figure 1 in [RFC6550][1] shows a
+sample network with multiple instances.  However the spec does not explain the
+use-cases of these concepts. This is an attempt to differentiate and explain
+the use-cases.
+
+> A Node can be part of multiple RPL Instances at the same time but cannot be
+> part of multiple DODAGs within the same Instance.
+
+Primary use-case for multiple Instances is to satisfy different applications
+with different needs.
+
+Primary use-case for multiple DODAGs within the same Instance is to Load
+balance and provide Root failover.
+
+> A Node needs to maintain routing table on per Instance basis. A node may have
+> a different next hop for the destination for different Instances.
+
+> RPI (RPL Packet Information RFC 6553) is used to designate data packets to a
+> given RPLInstanceID. If the data packet does not contain any RPI extended
+> header then the node is free to choose an RPLInstanceID for that packet
+> locally.
+
+![Alt text](/images/structure.png "Instances, DODAGs relation")
 
 ## Multiple RPL Instances
 Multiple RPL Instances could be used to satisfy different application
