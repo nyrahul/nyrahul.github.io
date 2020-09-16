@@ -69,6 +69,7 @@ Updated on LinkedIn page
 * A deep dive into Public Blockchain, IIM Bangalore [Link](https://www.facebook.com/events/iim-bangalore/a-deep-dive-into-blockchain-by-rahul-jadhav-huawei-india/704499513275067/)
 * State of MultiPath Transports, RFCsWeLove:  [Youtube](https://www.youtube.com/watch?v=yHa4ie1wqTY)
 * IoT and Embedded OSes, Open Source India [Youtube](https://www.youtube.com/watch?v=EaKSudEiFEI)
+* [RIOT Summit 2020](https://summit.riot-os.org/2020/#speakers) [slides](https://summit.riot-os.org/2020/wp-content/uploads/sites/15/2020/09/s2-1-rahul-jadhav.pdf)
 
 
 [1]: https://github.com/whitefield-framework/whitefield
