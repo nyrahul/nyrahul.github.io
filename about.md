@@ -32,6 +32,8 @@ Professional experience working in:
 * Whitefield Platform support in [Contiki](https://github.com/whitefield-framework/contiki)
 * UDP Generic Segmentation Offload (GSO) for lsquic [PR](https://github.com/litespeedtech/lsquic/pull/135)
 * [Android Support for lsquic](https://github.com/litespeedtech/lsquic/pull/132)
+* [Cilium](https://cilium.io/) contributions
+	* [Hubble TCP filters](https://github.com/cilium/cilium/pull/13826)
 * Others
     * [cmake fixes for lsquic](https://github.com/litespeedtech/lsquic/pull/134)
     * [NS3-PLC fixes](https://github.com/ns3-plc-module/plc/pull/16)
@@ -59,6 +61,7 @@ Updated on LinkedIn page
 
 ## Miscellaneous:
 
+* [RIOT Summit 2020](https://summit.riot-os.org/2020/#speakers) [slides](https://summit.riot-os.org/2020/wp-content/uploads/sites/15/2020/09/s2-1-rahul-jadhav.pdf)
 * Linux Kernel: Improved syscall batching for network IO, Netdev 0x13 [Youtube](https://www.youtube.com/watch?v=hJrXbqttJC4), [Slides/Paper](https://netdevconf.info/0x13/session.html?talk-syscall-batch)
 * IoT 6lo/RPL integration with Linux Kernel, Netdev 0x13 [Youtube](https://www.youtube.com/watch?v=HyJt_0GvPxA&feature=youtu.be&list=PLrninrcyMo3I_VSKwLF4hso6_Iq9b73Dm&t=3382), [Slides](https://netdevconf.info/0x13/session.html?workshop-on-iot-related-mac-layers-header-compressions-and-routing-protocols)
 * Presenting NPDAO solution, IETF-96 [Youtube](https://youtu.be/ZZ3RIHfprLw?list=PLC86T-6ZTP5i0Bp03yAK5oWrxMMwBjIq7&t=4352)
@@ -69,7 +72,6 @@ Updated on LinkedIn page
 * A deep dive into Public Blockchain, IIM Bangalore [Link](https://www.facebook.com/events/iim-bangalore/a-deep-dive-into-blockchain-by-rahul-jadhav-huawei-india/704499513275067/)
 * State of MultiPath Transports, RFCsWeLove:  [Youtube](https://www.youtube.com/watch?v=yHa4ie1wqTY)
 * IoT and Embedded OSes, Open Source India [Youtube](https://www.youtube.com/watch?v=EaKSudEiFEI)
-* [RIOT Summit 2020](https://summit.riot-os.org/2020/#speakers) [slides](https://summit.riot-os.org/2020/wp-content/uploads/sites/15/2020/09/s2-1-rahul-jadhav.pdf)
 
 
 [1]: https://github.com/whitefield-framework/whitefield
