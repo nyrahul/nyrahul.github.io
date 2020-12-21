@@ -33,7 +33,9 @@ Professional experience working in:
 * UDP Generic Segmentation Offload (GSO) for lsquic [PR](https://github.com/litespeedtech/lsquic/pull/135)
 * [Android Support for lsquic](https://github.com/litespeedtech/lsquic/pull/132)
 * [Cilium](https://cilium.io/) contributions
-	* [Hubble TCP filters](https://github.com/cilium/cilium/pull/13826)
+	* [Cilium TCP filters](https://github.com/cilium/cilium/pull/13826)
+	* [Hubble tcp-flags options](https://github.com/cilium/hubble/pull/461)
+	* [Filter on IP version (IPv4 / IPv6)](https://github.com/cilium/hubble/issues/459)
 * Others
     * [cmake fixes for lsquic](https://github.com/litespeedtech/lsquic/pull/134)
     * [NS3-PLC fixes](https://github.com/ns3-plc-module/plc/pull/16)
