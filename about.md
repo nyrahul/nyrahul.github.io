@@ -5,7 +5,7 @@ permalink: /about/
 tags: about
 ---
 
-Avid coder with 18+ years of professional experience in IP Networks and
+Avid coder with 20+ years of professional experience in IP Networks and
 Transport optimization domain. I have worked and contributed to various network
 stacks including Linux Kernel, LWIP, Micro IP. Have several high-value IPRs,
 contributed to IETF working groups and several open sources in the domain.
@@ -75,6 +75,7 @@ Updated on LinkedIn page
 * A deep dive into Public Blockchain, IIM Bangalore [Link](https://www.facebook.com/events/iim-bangalore/a-deep-dive-into-blockchain-by-rahul-jadhav-huawei-india/704499513275067/)
 * State of MultiPath Transports, RFCsWeLove:  [Youtube](https://www.youtube.com/watch?v=yHa4ie1wqTY)
 * IoT and Embedded OSes, Open Source India [Youtube](https://www.youtube.com/watch?v=EaKSudEiFEI)
+* Columbia DevOps Meetup - Introducing KubeArmor, [Youtube](https://youtu.be/oYvKmtCW_Kk)
 
 
 [1]: https://github.com/whitefield-framework/whitefield
