@@ -134,6 +134,10 @@ system to reduce the attack surface. However, if the security module policy
 specification language is hard to understand/debug, the administrator usually takes
 a stance of disabling it altogether, thus imposing friction in adoption.
 
+### References
+1. Linux Security Modules: General Security Support for the Linux Kernel, Wright & Cowan et al., 2002
+2. https://www.kernel.org/doc/html/v5.8/security/lsm.html
+
 [AA]: https://en.wikipedia.org/wiki/AppArmor
 [SEL]: https://en.wikipedia.org/wiki/SELinux
 [TOM]: https://en.wikipedia.org/wiki/TOMOYO_Linux
