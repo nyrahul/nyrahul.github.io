@@ -43,11 +43,11 @@ but the access decision is managed by security attribute.
 `LSM mediates access to kernel objects by placing hooks in the kernel code just
 before the access.`
 
-![Alt Test](../images/lsms/lsmhook.png)
+![Alt Test](/images/lsms/lsmhook.png)
 
 It can be seen here that the LSM hooks are applied after the DAC and other sanity checks are performed.
 
-![Alt Test](../images/lsms/LSM-SElinux.png)
+![Alt Test](/images/lsms/LSM-SElinux.png)
 
 Here it is shown that the LSM hooks are applied in core objects, and these hooks
 are dereferenced using a global hooks table. These global hooks are added (
@@ -62,7 +62,7 @@ is that the enforcement can be handled in an asynchronous fashion, i.e., the ker
 audit events could pass the alert to userspace, and then the userspace could
 enforce the decision asynchronously.
 
-![Alt Test](../images/lsms/asyncproblem.png)
+![Alt Test](/images/lsms/asyncproblem.png)
 
 Such an approach has several issues, i.e., the asynchronous nature might result
 in the malicious actor causing the actual damage before the actor could be
