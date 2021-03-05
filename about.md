@@ -64,7 +64,7 @@ Updated on LinkedIn page
 
 ## Miscellaneous:
 
-* [RIOT Summit 2020](https://summit.riot-os.org/2020/#speakers) [slides](https://summit.riot-os.org/2020/wp-content/uploads/sites/15/2020/09/s2-1-rahul-jadhav.pdf)
+* [RIOT Summit 2020](https://summit.riot-os.org/2020/#speakers) [slides](https://summit.riot-os.org/2020/wp-content/uploads/sites/15/2020/09/s2-1-rahul-jadhav.pdf) [Youtube](https://www.youtube.com/watch?v=aVaw0l2K9dU)
 * Linux Kernel: Improved syscall batching for network IO, Netdev 0x13 [Youtube](https://www.youtube.com/watch?v=hJrXbqttJC4), [Slides/Paper](https://netdevconf.info/0x13/session.html?talk-syscall-batch)
 * IoT 6lo/RPL integration with Linux Kernel, Netdev 0x13 [Youtube](https://www.youtube.com/watch?v=HyJt_0GvPxA&feature=youtu.be&list=PLrninrcyMo3I_VSKwLF4hso6_Iq9b73Dm&t=3382), [Slides](https://netdevconf.info/0x13/session.html?workshop-on-iot-related-mac-layers-header-compressions-and-routing-protocols)
 * Presenting NPDAO solution, IETF-96 [Youtube](https://youtu.be/ZZ3RIHfprLw?list=PLC86T-6ZTP5i0Bp03yAK5oWrxMMwBjIq7&t=4352)
