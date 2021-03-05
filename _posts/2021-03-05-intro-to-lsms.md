@@ -8,6 +8,8 @@ summary:    LSMs provide rich primitives to enforce system policy settings.
 categories: Linux, security
 ---
 
+_This blog was originally written for kubearmor.com_
+
 LSM hooks in Linux Kernel mediates access to internal kernel objects such as
 inodes, tasks, files, devices, and IPC. LSMs, in general, refer to these generic
 hooks added in the core kernel code. Further, security modules could make use
