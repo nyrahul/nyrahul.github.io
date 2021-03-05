@@ -3,8 +3,8 @@ layout:     post
 title:      Introduction to Linux Security Modules (LSMs)
 date:       2021-03-05
 summary:    LSMs provide rich primitives to enforce system policy settings.
-			This blogs provides introduction to LSMs and covers the core
-			rationale for using it for system's policy enforcement.
+            This blogs provides introduction to LSMs and covers the core
+            rationale for using it for system's policy enforcement.
 categories: Linux, security
 ---
 
@@ -38,8 +38,7 @@ but the access decision is managed by security attribute.
 
 `LSMs are a form of MAC-based controls.`
 
-LSM Hooks
----------
+## LSM Hooks
 
 `LSM mediates access to kernel objects by placing hooks in the kernel code just
 before the access.`
@@ -63,7 +62,7 @@ is that the enforcement can be handled in an asynchronous fashion, i.e., the ker
 audit events could pass the alert to userspace, and then the userspace could
 enforce the decision asynchronously.
 
-![Alt Test](../images/lsms/asyncproblem.png
+![Alt Test](../images/lsms/asyncproblem.png)
 
 Such an approach has several issues, i.e., the asynchronous nature might result
 in the malicious actor causing the actual damage before the actor could be
