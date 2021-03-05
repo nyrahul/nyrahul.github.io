@@ -109,8 +109,8 @@ Linux POSIX.1e capabilities logic is also implemented as a security module.
 There can be multiple security modules used at the same time. This is true in
 most cases; the capabilities module is always loaded alongside SELinux or
 any other LSM. The capabilities security module is always ordered first in
-execution (controlled using (.order = LSM_ORDER_FIRST)
-[https://github.com/torvalds/linux/blob/7d6beb71da3cc033649d641e1e608713b8220290/security/commoncap.c#L1470>]
+execution (controlled using [.order =
+LSM_ORDER_FIRST](https://github.com/torvalds/linux/blob/7d6beb71da3cc033649d641e1e608713b8220290/security/commoncap.c#L1470))
 flag).
 
 However, note that AppArmor, SELinux, and Smack security modules initialize
