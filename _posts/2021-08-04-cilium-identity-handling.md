@@ -100,12 +100,12 @@ deathstar.default.svc.cluster.local/v1/request-landing` results in the VXLAN
 UDP packets getting generated and if you capture the packets on the host, you
 should be able to see the VNI field with the identity value of the source pod.
 
-![Identity used for pod xwing](../res/imgs/vxlan-network-identifier-with-identity.png)
+![Identity used for pod xwing](/images/cilium/vxlan-network-identifier-with-identity.png)
 
 In this you can see that the tunneled traffic originating from xwing has a VNI
 value of 36927 indicating the source identity of the pod xwing.
 
-![Identity used for pod deathstar](../res/imgs/vxlan-network-identifier-with-identity-rsp.png)
+![Identity used for pod deathstar](/images/cilium/vxlan-network-identifier-with-identity-rsp.png)
 
 In this you can see that the tunneled traffic originating from xwing has a VNI
 value of 12643 indicating the source identity of the pod deathstar.
