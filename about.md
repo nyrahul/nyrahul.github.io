@@ -64,6 +64,7 @@ Updated on LinkedIn page
 
 ## Miscellaneous:
 
+* [KubeArmor/Accuknox OpenSource Office Hours](https://www.youtube.com/watch?v=T0J8wFrpwSg)
 * Kubecon Production Identity Day Oct 2021 [SPIFFE with Cilium](https://www.youtube.com/watch?v=V4eiX9Lx0H8)
 * [RIOT Summit 2020](https://summit.riot-os.org/2020/#speakers) [slides](https://summit.riot-os.org/2020/wp-content/uploads/sites/15/2020/09/s2-1-rahul-jadhav.pdf) [Youtube](https://www.youtube.com/watch?v=aVaw0l2K9dU)
 * Linux Kernel: Improved syscall batching for network IO, Netdev 0x13 [Youtube](https://www.youtube.com/watch?v=hJrXbqttJC4), [Slides/Paper](https://netdevconf.info/0x13/session.html?talk-syscall-batch)
