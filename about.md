@@ -11,7 +11,8 @@ stacks including Linux Kernel, LWIP, Micro IP. Have several high-value IPRs,
 contributed to IETF working groups and several open sources in the domain.
 
 Professional experience working in:
-* Security: Network and System's security. Cloud security, Workload Identity Solution, SPIFFE Framework
+* Security: Network and System's security. Cloud and Kubernetes security, Workload Identity Solution, SPIFFE Framework
+* Kubernetes, Dockers, Containers, extensively used EKS (Elastic k8s engine), GKE (Google K8s engine).
 * Transport Optimization: QUIC/TCP Transport, Congestion and Flow Control optimizations
 * IoT Networks: LoWPANs, BLE, PLC, IP Compression, Founder of Whitefield-Framework, Deployed Smart Grid Solutions, High Value IPRs/Stds/Publications in last-mile constrained Mesh networks. NS3/Omnet++/Castalia/Cooja simulation expertise.
 * Machine Learning: Search Optimized Adaboost for object detection. Algorithms/Publications in Computer Vision
