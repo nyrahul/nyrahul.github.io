@@ -11,9 +11,9 @@ stacks including Linux Kernel, LWIP, Micro IP. Have several high-value IPRs,
 contributed to IETF working groups and several open sources in the domain.
 
 Professional experience working in:
+* Security: Network and System's security. Cloud security, Workload Identity Solution, SPIFFE Framework
 * Transport Optimization: QUIC/TCP Transport, Congestion and Flow Control optimizations
 * IoT Networks: LoWPANs, BLE, PLC, IP Compression, Founder of Whitefield-Framework, Deployed Smart Grid Solutions, High Value IPRs/Stds/Publications in last-mile constrained Mesh networks. NS3/Omnet++/Castalia/Cooja simulation expertise.
-* Security: Transport (TLS) and Network security. Cloud security, SPIFFE Framework
 * Machine Learning: Search Optimized Adaboost for object detection. Algorithms/Publications in Computer Vision
 * Video Streaming: Worked on DASH, HLS optimization with coupled-transport. Implemented H264 based transrating solutions. Have high value IPRs and did corresponding implementations for live streaming.
 
@@ -56,14 +56,15 @@ Professional experience working in:
 
 ## My Publications
 
-Updated on LinkedIn page
+Updated on [LinkedIn page](https://www.linkedin.com/in/rahul-jadhav-a0485310/)
 
 ## My IPRs
 
-Updated on LinkedIn page
+Updated on [LinkedIn page](https://www.linkedin.com/in/rahul-jadhav-a0485310/)
 
 ## Miscellaneous:
 
+* [KubeArmor presentation to CNCF TAG-Security Group](https://www.youtube.com/watch?v=1-7r0CO81ho&list=PLZUlr-sxyEURN5K4Xk1ZoUStZbbVC9yn1&index=1)
 * [KubeArmor/Accuknox OpenSource Office Hours](https://www.youtube.com/watch?v=T0J8wFrpwSg)
 * Kubecon Production Identity Day Oct 2021 [SPIFFE with Cilium](https://www.youtube.com/watch?v=V4eiX9Lx0H8)
 * [RIOT Summit 2020](https://summit.riot-os.org/2020/#speakers) [slides](https://summit.riot-os.org/2020/wp-content/uploads/sites/15/2020/09/s2-1-rahul-jadhav.pdf) [Youtube](https://www.youtube.com/watch?v=aVaw0l2K9dU)
@@ -79,5 +80,9 @@ Updated on LinkedIn page
 * IoT and Embedded OSes, Open Source India [Youtube](https://www.youtube.com/watch?v=EaKSudEiFEI)
 * Columbia DevOps Meetup - Introducing KubeArmor, [Youtube](https://youtu.be/oYvKmtCW_Kk)
 
+## My Articles
+Apart from this portal you can find my articles here:
+1. [Kubernetes Threat Modeling](https://medium.com/@nyrahul/kubernetes-threat-modeling-bf044745cf85)
+2. [Kubernetes Workload Identity](https://medium.com/@nyrahul/kubernetes-workload-identity-3d638ef12782)
 
 [1]: https://github.com/whitefield-framework/whitefield
