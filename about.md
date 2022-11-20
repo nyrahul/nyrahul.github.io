@@ -65,6 +65,7 @@ Updated on [LinkedIn page](https://www.linkedin.com/in/rahul-jadhav-a0485310/)
 
 ## Miscellaneous:
 
+* Kubecon Cloud Security Con Oct 2022 [Securing K8s Pods from within: A Runtime Approahc](https://www.youtube.com/watch?v=1ji3htNqqig)
 * [Defending Kubernetes Clusters with KubeArmor](https://www.youtube.com/watch?v=BcLjx8JkLIY)
 * [Deep Dive RPL - Packet Trace Reading](https://www.youtube.com/watch?v=uzn26VxsKWQ)
 * [KubeArmor presentation to CNCF TAG-Security Group](https://www.youtube.com/watch?v=1-7r0CO81ho&list=PLZUlr-sxyEURN5K4Xk1ZoUStZbbVC9yn1&index=1)
