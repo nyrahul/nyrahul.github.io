@@ -65,7 +65,9 @@ Updated on [LinkedIn page](https://www.linkedin.com/in/rahul-jadhav-a0485310/)
 
 ## Miscellaneous:
 
-* Kubecon Cloud Security Con Oct 2022 [Securing K8s Pods from within: A Runtime Approahc](https://www.youtube.com/watch?v=1ji3htNqqig)
+* Presentation to ONAP Security Committee Oct 2023 [Advanced Security Primitives for 5G security](https://wiki.onap.org/download/attachments/191300176/2023-10-03_SECCOM_week.mp4?version=1&modificationDate=1696955536000&api=v2) [Meeting Notes](https://wiki.onap.org/display/DW/2023-10-10+Security+Subcommittee+Meeting+Notes) [Slides](https://wiki.onap.org/display/DW/2023-10-10+Security+Subcommittee+Meeting+Notes?preview=/191300176/191300222/5G%20Security%20Primitives.pptx)
+* [Nephio Security Charter](https://github.com/nephio-project/governance/pull/73)
+* Kubecon Cloud Security Con Oct 2022 [Securing K8s Pods from within: A Runtime Approach](https://www.youtube.com/watch?v=1ji3htNqqig)
 * [Defending Kubernetes Clusters with KubeArmor](https://www.youtube.com/watch?v=BcLjx8JkLIY)
 * [Deep Dive RPL - Packet Trace Reading](https://www.youtube.com/watch?v=uzn26VxsKWQ)
 * [KubeArmor presentation to CNCF TAG-Security Group](https://www.youtube.com/watch?v=1-7r0CO81ho&list=PLZUlr-sxyEURN5K4Xk1ZoUStZbbVC9yn1&index=1)
