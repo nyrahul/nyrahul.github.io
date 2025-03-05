@@ -65,6 +65,7 @@ Updated on [LinkedIn page](https://www.linkedin.com/in/rahul-jadhav-a0485310/)
 
 ## Miscellaneous:
 
+* Mar 2025, AccuKnox Webinar, Zero Trust 5G Deployments - Nephio Perspective, [YouTube](https://www.youtube.com/watch?v=ZfuzF05jUdk&ab_channel=AccuKnox)
 * Dec 2024, Kubecon India, SPIFFE for large-scale telco automation: A Nephio Rationale, [YouTube](https://www.youtube.com/watch?v=jUgqwhsJkmE&list=PLj6h78yzYM2P0vFbS4o1I0gRHSiXgLiEe&index=51&ab_channel=CNCF%5BCloudNativeComputingFoundation%5D), [Slides](https://docs.google.com/presentation/d/1z49f_sanL82qOLeP-0GdOFPP6e6JGCxm/edit?usp=sharing&ouid=111992287457254029296&rtpof=true&sd=true)
 * Apr 2024, ONE Summit, Intent Driven Security Automation for Telco/5G security, [Youtube](https://www.youtube.com/watch?v=rTZozSfAkqw&list=PL0bkBeEamheA6oG1U0ZEuXavNJeHXxzZM&ab_channel=LFNetworking)
 * Nephio India Meetup Apr 2024, Nephio: Doing security the scalable way [Youtube](https://youtu.be/uRpVpl4HKPE?t=8761)
